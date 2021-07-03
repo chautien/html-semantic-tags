@@ -2,7 +2,7 @@
   const contentElement = document.querySelector("#content");
   const asideElement = document.querySelector("#aside");
   // console.table({ contentElement, asideElement });
-  const ch = window.innerHeight * 0.8;
+  const ch = window.innerHeight / 2;
   const clientHeightContentElement = parseInt(
     contentElement.clientHeight + 120 - ch
   );
